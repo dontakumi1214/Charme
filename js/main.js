@@ -87,7 +87,6 @@
   // ===== CTA CLICK TRACKING =====
   function trackClick(label) {
     console.log('[Charme CV]', label);
-    // gtag('event', 'click', { event_category: 'CTA', event_label: label });
   }
 
   document.querySelectorAll('[data-track]').forEach((el) => {
