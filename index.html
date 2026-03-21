@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Charme（シャルム）は名古屋市東区泉のハーブピーリング専門サロン。元美容クリニックカウンセラーReiaが担当。メンズ美容初心者専門・完全個室・押し売りゼロ。HOT PEPPER ★4.9。">
+  <title>Charme（シャルム）| ハーブピーリング専門店【名古屋東区・3/2 GRAND OPEN】</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header-logo">
+      <img src="img/logo_mojinashi.png" alt="Charme Logo">
+      <span>Herb Peeling Salon · Nagoya</span>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== DRAWER MENU ===== -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <nav class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-inner">
+      <ul class="drawer-links">
+        <li>
+          <a href="https://beauty.hotpepper.jp/kr/slnH000741677/?vos=cpahpbprosmaf131118005"
+             target="_blank" rel="noopener noreferrer" data-track="drawer_reserve">
+            予約する
+          </a>
+        </li>
+        <li>
+          <a href="https://lin.ee/r7rJ2CHa"
+             target="_blank" rel="noopener noreferrer" data-track="drawer_line">
+            無料肌診断
+          </a>
+        </li>
+        <li>
+          <a href="https://charme0302.base.shop/"
+             target="_blank" rel="noopener noreferrer" data-track="drawer_shop">
+            ONLINE SHOP
+          </a>
+        </li>
+        <li>
+          <a href="#gift" data-track="drawer_gift">GIFT</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/charme.0302/?hl=ja"
+             target="_blank" rel="noopener noreferrer" data-track="drawer_instagram">
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://maps.app.goo.gl/LQLc1vSF3SeSWACi7"
+             target="_blank" rel="noopener noreferrer" data-track="drawer_map">
+            Google Map
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+
+      <div class="hero-main fade-in">
+        <h1 class="hero-catch">
+          <img src="img/logo_mojiari.png" alt="Charme Logo" class="hero-logo">
+        </h1>
+        <p class="hero-sub">Men's Skin Care Specialist</p>
+        <p class="hero-copy">
+          鼻の黒ずみ、繰り返すニキビ、毛穴の開き——<br>
+          元大手美容クリニックカウンセラーが、肌を本格的に変える。<br>
+          <strong>納得の美容体験</strong>を完全個室でご提供します。
+        </p>
+      </div>
+
+      <div class="hero-buttons fade-in fade-in-delay-1">
+          <a href="#cta" class="btn-primary" data-track="hero_reserve">
+            今すぐ予約する →
+          </a>
+          <a href="https://lin.ee/r7rJ2CHa" target="_blank" rel="noopener noreferrer"
+             class="btn-line" data-track="hero_line">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.26 1.74 6.13 4.4 7.93-.18.65-.67 2.36-.77 2.73-.12.43.16.43.34.31.14-.09 2.18-1.49 3.07-2.1.63.09 1.28.13 1.96.13 5.52 0 10-4.03 10-9s-4.48-9-10-9z"/></svg>
+            LINE無料診断
+          </a>
+          <a href="#menu" class="btn-outline">料金を見る</a>
+      </div>
+
+      <div class="hero-stats fade-in fade-in-delay-2">
+        <div class="hero-stat">
+          <div class="hero-stat-num">★<span>4.9</span></div>
+          <div class="hero-stat-label">Hot Pepper Rating</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">完全<span>個室</span></div>
+          <div class="hero-stat-label">Private Space</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">2<span>時間</span></div>
+          <div class="hero-stat-label">Careful Treatment</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== TICKER ===== -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-inner">
+      <span class="ticker-item">3/2 Grand Open <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">Herb Peeling Specialist <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">名古屋市東区・泉 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">完全個室 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">Hot Pepper ★4.9 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">メンズ美容初心者専門 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">Herb Gift Available <span class="ticker-sep">·</span></span>
+      <!-- duplicate for seamless loop -->
+      <span class="ticker-item">3/2 Grand Open <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">Herb Peeling Specialist <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">名古屋市東区・泉 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">完全個室 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">Hot Pepper ★4.9 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">メンズ美容初心者専門 <span class="ticker-sep">·</span></span>
+      <span class="ticker-item">Herb Gift Available <span class="ticker-sep">·</span></span>
+    </div>
+  </div>
+
+  <!-- ===== PAIN ===== -->
+  <section class="section section-alt" id="pain">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Skin Trouble</p>
+          <h2 class="section-title">こんな悩み、<br>ありませんか？</h2>
+          <p class="section-lead">
+            多くの男性が感じている肌の悩み。<br>
+            市販のケアで解決できないなら、専門家に相談してください。
+          </p>
+        </div>
+        <span class="section-num">01</span>
+      </div>
+
+      <div class="pain-grid">
+        <div class="pain-item fade-in">
+          <span class="pain-num">01</span>
+          <p class="pain-text">鏡を見るたびに<strong>鼻の黒ずみ・毛穴の開き</strong>が気になる</p>
+        </div>
+        <div class="pain-item fade-in fade-in-delay-1">
+          <span class="pain-num">02</span>
+          <p class="pain-text">繰り返す<strong>ニキビ・ニキビ跡・赤み</strong>が消えない</p>
+        </div>
+        <div class="pain-item fade-in fade-in-delay-2">
+          <span class="pain-num">03</span>
+          <p class="pain-text"><strong>くすみ・ハリのなさ</strong>で清潔感が出ない</p>
+        </div>
+        <div class="pain-item fade-in fade-in-delay-3">
+          <span class="pain-num">04</span>
+          <p class="pain-text">至近距離になると<strong>シミ・そばかす・肌荒れ</strong>が心配</p>
+        </div>
+        <div class="pain-item fade-in">
+          <span class="pain-num">05</span>
+          <p class="pain-text">エステは<strong>「女性向け」「高額」</strong>というイメージで入りにくい</p>
+        </div>
+        <div class="pain-item fade-in fade-in-delay-1">
+          <span class="pain-num">06</span>
+          <p class="pain-text">洗顔料やスキンケアを変えても<strong>一向に改善しない</strong></p>
+        </div>
+      </div>
+
+      <div class="pain-bridge fade-in">
+        <p>
+          そのお悩み、市販のケアでは限界があります。<br>
+          <strong>Charmeのハーブピーリングは、肌の奥から根本的に変えます。</strong><br>
+          まずはLINEで無料肌診断を受けてみてください。
+        </p>
+        <a href="https://lin.ee/r7rJ2CHa" target="_blank" rel="noopener noreferrer"
+           class="btn-line pain-line-btn" data-track="pain_line">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.26 1.74 6.13 4.4 7.93-.18.65-.67 2.36-.77 2.73-.12.43.16.43.34.31.14-.09 2.18-1.49 3.07-2.1.63.09 1.28.13 1.96.13 5.52 0 10-4.03 10-9s-4.48-9-10-9z"/></svg>
+          LINEで無料肌診断を受ける
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SOLUTION ===== -->
+  <section class="section" id="solution">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Solution</p>
+          <h2 class="section-title">なぜCharmeで<br>変われるのか</h2>
+          <p class="section-lead">
+            元大手美容クリニックカウンセラーが、8項目の肌診断で<br>
+            あなたに最適なオーダーメイド施術を提供します。
+          </p>
+        </div>
+        <span class="section-num">02</span>
+      </div>
+
+      <div class="solution-card fade-in">
+        <span class="solution-tag">Herb Peeling</span>
+        <h3>剥離なし・ダウンタイム少ないハーブピーリング</h3>
+        <p>
+          天然植物幹細胞エキスの有効成分が毛穴の奥まで浸透し、古い角質・皮脂詰まりをスッキリ除去。
+          剥離なしタイプなので、施術直後のメイクも可能。仕事帰りや外出前でも安心して受けられます。
+          痛み・ダウンタイムが少なく、初めての方でも快適に体験できます。
+        </p>
+
+        <div class="solution-steps">
+          <div class="solution-step">
+            <div class="step-num">01</div>
+            <div class="step-body">
+              <h4>LINEで無料肌診断</h4>
+              <p>LINE登録後、肌写真3枚（正面・左右横顔）を送付。診断結果をお届けします。</p>
+            </div>
+          </div>
+          <div class="solution-step">
+            <div class="step-num">02</div>
+            <div class="step-body">
+              <h4>カウンセリング（無料）</h4>
+              <p>来店後、8項目の肌診断を実施。押し売り一切なし。</p>
+            </div>
+          </div>
+          <div class="solution-step">
+            <div class="step-num">03</div>
+            <div class="step-body">
+              <h4>クレンジング・泡パック</h4>
+              <p>肌表面の汚れを丁寧に除去し、施術効果を最大化。</p>
+            </div>
+          </div>
+          <div class="solution-step">
+            <div class="step-num">04</div>
+            <div class="step-body">
+              <h4>オーダーメイドハーブピーリング</h4>
+              <p>天然植物幹細胞エキスを使用した、あなたの肌に合わせた施術。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="kenko-card">
+          <div><span class="kenko-free">Free</span></div>
+          <h4>8項目の無料肌診断</h4>
+          <p>
+            毛穴の状態 / 肌のキメ / 潤い / ハリ・弾力 / くすみ / 小顔 / 赤み / シミ・そばかす<br>
+            元美容クリニックカウンセラーが専門的な視点でチェックし、最適なケアプランをご提案します。
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== STAFF ===== -->
+  <section class="section section-alt" id="staff">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Therapist</p>
+          <h2 class="section-title">担当スタッフ</h2>
+        </div>
+        <span class="section-num">03</span>
+      </div>
+
+      <div class="staff-inner">
+        <div class="staff-avatar-wrap fade-in">
+          <img src="img/stylist.png" alt="Reia" class="staff-avatar">
+        </div>
+
+        <div class="staff-name-block fade-in fade-in-delay-1">
+          <p class="staff-eyebrow">Founder &amp; Therapist</p>
+          <div class="staff-name-row">
+            <div class="staff-name">Reia</div>
+            <a href="https://www.instagram.com/charme.0302/?hl=ja" target="_blank" rel="noopener noreferrer"
+               class="btn-instagram" data-track="staff_instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Instagram
+            </a>
+          </div>
+          <div class="staff-role">白川 鈴亜</div>
+
+        <div class="staff-profile fade-in fade-in-delay-2">
+          <div class="staff-career">
+            元大手美容クリニックカウンセラー（6年勤務）
+          </div>
+
+          <blockquote class="staff-message">
+            「自信を持てる美しさ、一緒に手に入れましょう！<br>
+            押し売りゼロ・納得の美容体験をお約束します。」
+          </blockquote>
+
+          <div class="staff-rating">
+            <span class="staff-stars">★★★★★</span>
+            <span class="staff-rating-num">4.9</span>
+            <span class="staff-rating-text">HOT PEPPER Beauty</span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ===== USP (Why Charme) ===== -->
+  <section class="section" id="usp">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Why Charme</p>
+          <h2 class="section-title">選ばれる<br>3つの理由</h2>
+        </div>
+        <span class="section-num">04</span>
+      </div>
+
+      <div class="menu-grid" style="grid-template-columns: repeat(3,1fr);">
+        <div class="menu-card fade-in">
+          <p class="menu-card-label">Reason 01</p>
+          <h3>元美容クリニック出身の専門知識</h3>
+          <p>担当Reiaは、元大手美容クリニックカウンセラー6年のキャリアを持つスペシャリスト。医療の知識に裏づけられた的確な肌診断と、日本人の肌質に合わせた天然植物幹細胞エキスを使用した施術で、確かな結果をお届けします。</p>
+        </div>
+        <div class="menu-card fade-in fade-in-delay-1">
+          <p class="menu-card-label">Reason 02</p>
+          <h3>完全個室・押し売りゼロの安心感</h3>
+          <p>他のお客様と顔を合わせることのない完全個室制。追加勧誘は一切なく、納得のいく美容体験をご提供。メイクルーム・コテ・ドライヤーも完備で施術後すぐ外出できます。</p>
+        </div>
+        <div class="menu-card fade-in fade-in-delay-2">
+          <p class="menu-card-label">Reason 03</p>
+          <h3>ギフトにも対応するホスピタリティ</h3>
+          <p>「自分へのご褒美」だけでなく、大切な人へのプレゼントにも対応。ハーブギフト3プランをご用意。提携コインパーキング・駐車券サービスもあるので遠方の方も安心。</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="section section-alt" id="menu">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Menu &amp; Price</p>
+          <h2 class="section-title">施術メニュー・<br>料金</h2>
+          <p class="section-lead">
+            まずは試しやすい初回限定クーポンから。<br>
+            1回2時間、カウンセリングから施術まで丁寧にご対応します。
+          </p>
+        </div>
+        <span class="section-num">05</span>
+      </div>
+
+      <div class="menu-grid">
+        <div class="menu-card featured fade-in">
+          <p class="menu-card-label">Most Popular</p>
+          <span class="menu-badge">初回限定</span>
+          <h3>メンズ毛穴洗浄 コース</h3>
+          <p>毛穴の黒ずみ・皮脂詰まりを徹底ケア。初めての方に最もおすすめの入門コース。</p>
+          <div class="menu-price">
+            <span class="price-now">¥5,800<small>円〜</small></span>
+          </div>
+          <span class="price-label">税込 / 初回限定価格</span>
+          <a href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000741677&couponId=CP00000012422727&add=0" class="btn-menu-reserve" data-track="menu_reserve_1">予約する →</a>
+        </div>
+
+        <div class="menu-card fade-in fade-in-delay-1">
+          <p class="menu-card-label">Recommend</p>
+          <span class="menu-badge">初回限定</span>
+          <h3>メンズフェイシャル コース</h3>
+          <p>肌状態に合わせたハーブケアで清潔感のある印象へ。</p>
+          <div class="menu-price">
+            <span class="price-now">¥9,800<small>円〜</small></span>
+          </div>
+          <span class="price-label">税込 / 初回カウンセリング無料</span>
+          <a href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000741677&couponId=CP00000011710024&add=0" class="btn-menu-reserve" data-track="menu_reserve_2">予約する →</a>
+        </div>
+
+        <div class="menu-card fade-in fade-in-delay-2">
+          <p class="menu-card-label">Total Care</p>
+          <span class="menu-badge">2回目以降</span>
+          <h3>ハーブ×顔筋リフト集中 コース</h3>
+          <p>本格ハーブで肌状態を整え、EML顔筋リフトでフェイスラインを引き締め。</p>
+          <div class="menu-price">
+            <span class="price-now">¥18,000<small>円〜</small></span>
+          </div>
+          <span class="price-label">税込</span>
+          <a href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000741677&couponId=CP00000011829959&add=0" class="btn-menu-reserve" data-track="menu_reserve_3">予約する →</a>
+        </div>
+      </div>
+
+      <p class="menu-note fade-in">
+        ※ 料金はすべて税込表示です。施術内容・お肌の状態によって変動する場合があります。<br>
+        ※ 初回カウンセリング・8項目肌診断は無料。勧誘・追加費用の請求は一切ありません。<br>
+        ※ 推奨通院頻度：2〜3週間間隔で3〜6回で効果を体感。メイクをしたままご来店いただけます。
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ===== GIFT ===== -->
+  <section class="section" id="gift">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Herb Gift</p>
+          <h2 class="section-title">大切な人へ、<br>贈る美容。</h2>
+        </div>
+        <span class="section-num">06</span>
+      </div>
+
+      <p class="gift-lead">
+        「自分ではなかなか行けない」そんな大切な人へ、<br>
+        <strong>本物のスキンケア体験</strong>をプレゼントしませんか？<br>
+        Charmeのハーブギフトは、3つのプランからお選びいただけます。
+      </p>
+
+      <div class="gift-grid">
+        <div class="gift-card fade-in">
+          <span class="gift-plan-label">Plan 01 — Light</span>
+          <h3>ハーブギフト ライト</h3>
+          <p>初めてのサロン体験を気軽にプレゼント。毛穴洗浄1回分のギフト券。相手のご都合に合わせて好きな日時で使用可能。</p>
+          <div class="gift-price">¥11,000<small>（税込）</small></div>
+          <a href="https://web.online.airpayment.jp/payment?planId=PLAi14Qq6nfn7n6va3" class="btn-gift-buy" data-track="gift_buy_light">購入する →</a>
+        </div>
+
+        <div class="gift-card fade-in fade-in-delay-1">
+          <span class="gift-plan-label">Plan 02 — Standard</span>
+          <h3>ハーブギフト スタンダード</h3>
+          <p>ハーブピーリング1回＋ホームケアアドバイス付き。誕生日や記念日のプレゼントにぴったり。</p>
+          <div class="gift-price">¥15,000<small>（税込）</small></div>
+          <a href="https://web.online.airpayment.jp/payment?planId=PLBXRwA4SDMzgEwhJO" class="btn-gift-buy" data-track="gift_buy_standard">購入する →</a>
+        </div>
+
+        <div class="gift-card fade-in fade-in-delay-2">
+          <span class="gift-plan-label">Plan 03 — Premium</span>
+          <h3>ハーブギフト プレミアム</h3>
+          <p>フェイシャルトータルケア1回＋オンラインショップ商品付き。特別な方への最上のギフトセット。</p>
+          <div class="gift-price">¥18,000<small>（税込）</small></div>
+          <a href="https://web.online.airpayment.jp/payment?planId=PLKuqNQE7mxLzJrR1t" class="btn-gift-buy" data-track="gift_buy_premium">購入する →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ONLINE SHOP ===== -->
+  <section class="section section-alt" id="shop">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Online Shop</p>
+          <h2 class="section-title">自宅でも続ける、<br>本格スキンケア</h2>
+        </div>
+        <span class="section-num">07</span>
+      </div>
+
+      <div class="shop-inner">
+        <div class="shop-text fade-in">
+          <p class="shop-lead">
+            サロンでの施術効果を最大限に持続させるために、
+            プロが厳選したホームケアアイテムをオンラインショップでご購入いただけます。
+          </p>
+
+          <div class="shop-features">
+            <div class="shop-feature">
+              <strong>天然植物幹細胞エキス配合</strong>施術で使用する成分をベースにしたサロン品質のホームケア。
+            </div>
+            <div class="shop-feature">
+              <strong>全国発送対応</strong>名古屋近郊以外の方もオンラインで購入可能。
+            </div>
+            <div class="shop-feature">
+              <strong>商品選びはLINEで相談</strong>肌質に合ったアイテムをReiaが個別にアドバイスします。
+            </div>
+          </div>
+
+          <a href="https://charme0302.base.shop/" target="_blank" rel="noopener noreferrer"
+             class="btn-shop" data-track="shop_base">
+            オンラインショップへ→
+          </a>
+        </div>
+
+        <div class="shop-visual fade-in fade-in-delay-1">
+          <div class="shop-visual-content">
+            <img src="img/online_shop.png" alt="Online Shop" class="shop-visual-image">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== VOICE ===== -->
+  <section class="section" id="voice">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Testimonials</p>
+          <h2 class="section-title">お客様の声</h2>
+        </div>
+        <span class="section-num">08</span>
+      </div>
+
+      <div class="voice-grid">
+        <div class="voice-card fade-in">
+          <span class="voice-stars">★★★★★</span>
+          <p class="voice-text">
+            グランドオープン初日に行きました。Reiaさんが元クリニックの方と聞いて安心して任せられました。
+            1回の施術で鼻の黒ずみが明らかに減って、久しぶりに鏡を見るのが楽しくなりました。
+          </p>
+          <div class="voice-author">
+            <div class="voice-avatar">👨</div>
+            <div>
+              <div class="voice-name">T.K さん（28歳・会社員）</div>
+              <div class="voice-meta">毛穴洗浄コース / 3回目</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="voice-card fade-in fade-in-delay-1">
+          <span class="voice-stars">★★★★★</span>
+          <p class="voice-text">
+            彼氏への誕生日プレゼントにハーブギフトを贈りました。「エステなんて…」と渋っていた彼が、
+            終わってすぐ「また行きたい」と言ってくれて大成功でした！施術後そのままデートに行けたのも◎
+          </p>
+          <div class="voice-author">
+            <div class="voice-avatar">👩</div>
+            <div>
+              <div class="voice-name">M.S さん（27歳・女性）</div>
+              <div class="voice-meta">ハーブギフト スタンダード / ご購入</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="voice-card fade-in fade-in-delay-2">
+          <span class="voice-stars">★★★★★</span>
+          <p class="voice-text">
+            LINEで肌診断してもらってから来店したので、カウンセリングがスムーズで良かったです。
+            「押し売りゼロ」は本当でした。オンラインショップの化粧水も使い始めて、サロン後の肌の持ちが全然違います。
+          </p>
+          <div class="voice-author">
+            <div class="voice-avatar">🧑</div>
+            <div>
+              <div class="voice-name">R.Y さん（25歳・エンジニア）</div>
+              <div class="voice-meta">フェイシャルトータルケア / 2回目</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">FAQ</p>
+          <h2 class="section-title">よくある質問</h2>
+          <p class="section-lead">
+            初めての方が感じる疑問・不安にお答えします。<br>
+            その他はLINEからお気軽にどうぞ。
+          </p>
+        </div>
+        <span class="section-num">09</span>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item fade-in">
+          <summary class="faq-q">
+            <span class="faq-label">Q</span>
+            <span class="faq-question">施術中に痛みはありますか？</span>
+            <span class="faq-toggle">+</span>
+          </summary>
+          <div class="faq-a">
+            Charmeのハーブピーリングは<strong>剥離なしタイプ</strong>なので、痛みやダウンタイムが非常に少ないのが特徴です。肌質によってピリピリ感を感じる方もいますが、強い痛みはありません。施術中は随時お声がけし、強さの調整も可能です。
+          </div>
+        </details>
+
+        <details class="faq-item fade-in fade-in-delay-1">
+          <summary class="faq-q">
+            <span class="faq-label">Q</span>
+            <span class="faq-question">施術後にメイクはできますか？</span>
+            <span class="faq-toggle">+</span>
+          </summary>
+          <div class="faq-a">
+            はい、<strong>施術直後のメイクが可能</strong>です。メイクルームにはコテ・ドライヤーもご用意しておりますので、仕事帰りやデートの前でも安心してご来店いただけます。
+          </div>
+        </details>
+
+        <details class="faq-item fade-in fade-in-delay-2">
+          <summary class="faq-q">
+            <span class="faq-label">Q</span>
+            <span class="faq-question">勧誘や追加費用の請求はありますか？</span>
+            <span class="faq-toggle">+</span>
+          </summary>
+          <div class="faq-a">
+            <strong>押し売りゼロ</strong>をお約束しています。初回カウンセリング・肌診断は完全無料で、施術後に追加料金をご請求することはありません。
+          </div>
+        </details>
+
+        <details class="faq-item fade-in">
+          <summary class="faq-q">
+            <span class="faq-label">Q</span>
+            <span class="faq-question">何回通えば効果が出ますか？</span>
+            <span class="faq-toggle">+</span>
+          </summary>
+          <div class="faq-a">
+            推奨通院頻度は<strong>2〜3週間間隔で3〜6回</strong>です。ただし、多くの方が1回目から毛穴の引き締まり・肌のトーンアップを実感されています。
+          </div>
+        </details>
+
+        <details class="faq-item fade-in fade-in-delay-1">
+          <summary class="faq-q">
+            <span class="faq-label">Q</span>
+            <span class="faq-question">ハーブギフト券の使い方を教えてください。</span>
+            <span class="faq-toggle">+</span>
+          </summary>
+          <div class="faq-a">
+            ハーブギフトはギフト券としてお渡しいただき、受け取った方がご自分の都合の良い日時にご予約いただく形式です。有効期限は発行から6ヶ月。LINEまたはホットペッパービューティーからご予約の際に「ギフト券利用」とお伝えください。
+          </div>
+        </details>
+
+        <details class="faq-item fade-in fade-in-delay-2">
+          <summary class="faq-q">
+            <span class="faq-label">Q</span>
+            <span class="faq-question">駐車場はありますか？</span>
+            <span class="faq-toggle">+</span>
+          </summary>
+          <div class="faq-a">
+            提携コインパーキングをご利用いただけます。ご来店の際は<strong>駐車券サービス</strong>もございますので、お車でお越しの方も安心です。詳細はLINEにてご確認ください。
+          </div>
+        </details>
+
+        <details class="faq-item fade-in">
+          <summary class="faq-q">
+            <span class="faq-label">Q</span>
+            <span class="faq-question">オンラインショップの商品はいつ届きますか？</span>
+            <span class="faq-toggle">+</span>
+          </summary>
+          <div class="faq-a">
+            BASEのオンラインショップからご注文いただいた商品は、通常3〜5営業日以内に発送いたします。お急ぎの場合はLINEにてご相談ください。
+          </div>
+        </details>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ACCESS ===== -->
+  <section class="section" id="access">
+    <div class="container">
+
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Access</p>
+          <h2 class="section-title">店舗情報・<br>アクセス</h2>
+        </div>
+        <span class="section-num">10</span>
+      </div>
+
+      <div class="access-inner">
+        <div class="access-info fade-in">
+          <h3>Charme（シャルム）</h3>
+          <table class="access-table">
+            <tr>
+              <td>住所</td>
+              <td>愛知県名古屋市東区泉１丁目4-31<br>久屋パークビル 2F</td>
+            </tr>
+            <tr>
+              <td>最寄駅</td>
+              <td>
+                地下鉄名城線「高岳駅」徒歩10分<br>
+                地下鉄桜通線「久屋大通駅」徒歩10分
+              </td>
+            </tr>
+            <tr>
+              <td>駐車場</td>
+              <td>提携コインパーキングあり（駐車券サービス有）</td>
+            </tr>
+            <tr>
+              <td>営業時間</td>
+              <td>10:00〜22:00（最終受付 20:00）</td>
+            </tr>
+            <tr>
+              <td>定休日</td>
+              <td>不定休（ホットペッパービューティーにて確認）</td>
+            </tr>
+            <tr>
+              <td>TEL</td>
+              <td><a href="tel:052-212-9883" style="color:var(--gold); font-weight:700;">052-212-9883</a></td>
+            </tr>
+            <tr>
+              <td>Instagram</td>
+              <td>
+                <a href="#" style="color:var(--gold); font-weight:700;">@charme_nagoya</a>
+              </td>
+            </tr>
+            <tr>
+              <td>LINE</td>
+              <td>
+                <a href="https://lin.ee/r7rJ2CHa" target="_blank" rel="noopener noreferrer"
+                   style="color:var(--line-green); font-weight:700;" data-track="access_line">
+                  LINE公式アカウントで無料診断・相談
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="access-map-placeholder fade-in fade-in-delay-1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.1537012237313!2d136.9114603!3d35.1777215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003714b41ad45c3%3A0x18d530457d3ca1f9!2zQ2hhcm1l44CQ44K344Oj44Or44Og44CR772c44Oh44Oz44K654m55YyWIOavm-eptOODu-iCjOizquaUueWWhOOCteODreODsw!5e0!3m2!1sja!2sjp!4v1774090199598!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta" id="cta">
+    <div class="container">
+      <h2>
+        <em>史上最高の魅せたい自分へ。</em><br>
+        まず、一歩踏み出してみよう。
+      </h2>
+      <p class="cta-lead">
+        初回カウンセリング・8項目肌診断は無料。完全個室・押し売りゼロ。<br>
+        3つの導線から、あなたに合ったスタートを選んでください。
+      </p>
+
+      <div class="cta-buttons">
+        <a href="https://beauty.hotpepper.jp/kr/slnH000741677/?vos=cpahpbprosmaf131118005" target="_blank" rel="noopener noreferrer"
+           class="cta-btn-primary" data-track="cta_reserve">
+          ホットペッパーで予約する（初回割引あり）
+        </a>
+
+        <a href="https://lin.ee/r7rJ2CHa" target="_blank" rel="noopener noreferrer"
+           class="cta-btn-line" data-track="cta_line">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.26 1.74 6.13 4.4 7.93-.18.65-.67 2.36-.77 2.73-.12.43.16.43.34.31.14-.09 2.18-1.49 3.07-2.1.63.09 1.28.13 1.96.13 5.52 0 10-4.03 10-9s-4.48-9-10-9z"/></svg>
+          LINE登録して無料肌診断を受ける
+        </a>
+
+        <a href="https://charme0302.base.shop/" target="_blank" rel="noopener noreferrer"
+           class="cta-btn-gift" data-track="cta_gift">
+          ハーブギフトを贈る・購入する
+        </a>
+      </div>
+
+      <p class="cta-note">※ 各ボタンより外部サービスへ移動します</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-logo"><img src="img/logo_mojinashi.png" alt="Charme Logo"></div>
+    <div class="footer-tagline">Herb Peeling Salon — Nagoya Higashi-ku / 3.2 Grand Open</div>
+
+    <div class="footer-sns">
+      <a href="#" class="sns-link" aria-label="Instagram">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+      </a>
+      <a href="https://lin.ee/r7rJ2CHa" target="_blank" rel="noopener noreferrer" class="sns-link" aria-label="LINE">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.26 1.74 6.13 4.4 7.93-.18.65-.67 2.36-.77 2.73-.12.43.16.43.34.31.14-.09 2.18-1.49 3.07-2.1.63.09 1.28.13 1.96.13 5.52 0 10-4.03 10-9s-4.48-9-10-9z"/></svg>
+      </a>
+      <a href="https://beauty.hotpepper.jp/" target="_blank" rel="noopener noreferrer" class="sns-link" aria-label="HOT PEPPER Beauty">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="footer-links">
+      <a href="#top">Top</a>
+      <a href="#pain">お悩み</a>
+      <a href="#solution">施術について</a>
+      <a href="#staff">スタッフ</a>
+      <a href="#menu">料金</a>
+      <a href="#gift">ハーブギフト</a>
+      <a href="#shop">オンラインショップ</a>
+      <a href="#faq">FAQ</a>
+      <a href="#access">アクセス</a>
+      <a href="#cta">予約する</a>
+    </div>
+
+    <div class="footer-copy">© 2025 Charme（シャルム） All Rights Reserved. | 代表：白川鈴亜</div>
+  </footer>
+
+  <!-- ===== FIXED CTA (mobile bottom bar) ===== -->
+  <div class="fixed-cta" id="fixedCta">
+    <a href="#cta" class="fixed-cta-inner" data-track="fixed_cta">
+      今すぐ無料カウンセリングを予約 →
+    </a>
+  </div>
+
+  <!-- ===== LINE FLOAT ===== -->
+  <div class="line-float">
+    <a href="https://lin.ee/r7rJ2CHa" target="_blank" rel="noopener noreferrer"
+       class="line-float-btn" aria-label="LINEで無料診断" data-track="line_float">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 3.26 1.74 6.13 4.4 7.93-.18.65-.67 2.36-.77 2.73-.12.43.16.43.34.31.14-.09 2.18-1.49 3.07-2.1.63.09 1.28.13 1.96.13 5.52 0 10-4.03 10-9s-4.48-9-10-9z"/></svg>
+    </a>
+    <span class="line-float-label">無料診断</span>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
