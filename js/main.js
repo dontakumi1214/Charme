@@ -124,6 +124,10 @@
 
   drawerOverlay.addEventListener('click', closeDrawer);
 
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && hamburgerBtn.classList.contains('is-open')) closeDrawer();
+  });
+
   drawer.querySelectorAll('a[href^="#"]').forEach((a) => {
     a.addEventListener('click', closeDrawer);
   });

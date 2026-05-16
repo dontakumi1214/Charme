@@ -1,0 +1,16 @@
+{
+  "name": "charme-agents",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node orchestrator.js",
+    "planner": "node planner.js",
+    "generator": "node generator.js",
+    "evaluator": "node evaluator.js",
+    "marketing": "node marketing.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "playwright": "^1.48.0"
+  }
+}

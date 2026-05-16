@@ -37,6 +37,18 @@ body {
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .container {
   width: 100%;
   max-width: var(--max);
@@ -1090,6 +1102,91 @@ section { padding: var(--sp) 0; }
   margin-top: 2px;
 }
 
+/* ===== BEFORE / AFTER ===== */
+.ba-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.ba-case {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ba-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+}
+
+.ba-img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.ba-placeholder {
+  aspect-ratio: 3 / 4;
+  background: var(--paper);
+  border: 1.5px dashed var(--beige);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--mid);
+}
+
+.ba-img-wrap img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+.ba-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 10, 10, 0.55);
+  color: var(--white);
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.ba-label--after { background: rgba(200, 156, 52, 0.8); }
+
+.ba-caption { text-align: center; }
+
+.ba-treatment {
+  font-family: var(--serif);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.ba-detail {
+  font-size: 0.72rem;
+  color: var(--mid);
+  letter-spacing: 0.04em;
+}
+
+.ba-note {
+  font-size: 0.72rem;
+  color: var(--mid);
+  text-align: center;
+  padding-top: 24px;
+  border-top: 1px solid var(--beige);
+}
+
 /* ===== FAQ ===== */
 .faq-list { max-width: 720px; }
 
@@ -1228,7 +1325,6 @@ details[open] .faq-toggle {
   font-weight: 700;
   line-height: 1.45;
   margin-bottom: 16px;
-  white-space: nowrap;
 }
 
 .cta h2 em {
@@ -1400,6 +1496,7 @@ details[open] .faq-toggle {
   font-weight: 700;
   letter-spacing: 0.12em;
   height: 56px;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 
@@ -1454,6 +1551,7 @@ details[open] .faq-toggle {
   .menu-grid   { grid-template-columns: 1fr; }
   .gift-grid   { grid-template-columns: 1fr; }
   .voice-grid  { grid-template-columns: 1fr; }
+  .ba-grid     { grid-template-columns: 1fr; gap: 32px; }
 
   .section-header { flex-direction: column; gap: 4px; }
   .section-num    { font-size: 3rem; align-self: flex-end; }
@@ -1473,8 +1571,6 @@ details[open] .faq-toggle {
   .staff-name { font-size: 1.6rem; }
   .staff-role { margin-bottom: 0; }
 
-  /* USP: 縦1列 */
-  #usp .menu-grid { grid-template-columns: 1fr !important; }
   #usp .menu-card { padding: 24px 20px; }
 
   .pain-bridge { padding: 28px 24px; }
