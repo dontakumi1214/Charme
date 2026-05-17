@@ -250,6 +250,24 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: 12px;
 }
 
+
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.hero-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  padding: 8px 20px;
+}
+
 .hero-copy {
   font-size: 0.9rem;
   color: var(--mid);
